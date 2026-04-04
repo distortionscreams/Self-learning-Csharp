@@ -6,7 +6,6 @@ Console.Write(" ");
 Console.Write("you wrote your first lines of code.");
 Console.WriteLine("This is the first line.");
 Console.WriteLine("This is the seconds line.");
-
 Console.WriteLine('b');
 Console.WriteLine(123);
 Console.WriteLine(0.25F);
@@ -22,7 +21,6 @@ firstname = "Isabella";
 Console.WriteLine(firstname);
 firstname = "Yasmin";
 Console.WriteLine(firstname);
-
 firstname = "Bob";
 int ms = 3;
 decimal tmp = 34.4m;
@@ -41,9 +39,7 @@ Console.Write("\nOutput Directory:\t");
 Console.WriteLine(@"c:\invoice");
 Console.WriteLine(@"c\source\repos
 (this is where your file goes)");
-
-firstname = "Bob !";
-string greeting = "Hello ";
+string greeting = "Hi ";
 string ms1 = greeting + firstname;
 Console.WriteLine(ms1);
 Console.WriteLine(greeting + firstname);
@@ -55,11 +51,62 @@ Console.WriteLine(ms2);
 Console.WriteLine($"{updateText}{version}!");
 string projectName = "First-Project";
 Console.WriteLine($@"C:\Output\{projectName}\Data");
-
 projectName = "ACME";
 Console.WriteLine("View English output :");
 Console.WriteLine($@"C:\Exercise\{projectName}\data.txt");
-
 string englishLocation = $@"C:\Exercise\{projectName}data.txt";
 string englishoutput = "View english output :";
 Console.WriteLine(englishoutput + englishLocation);
+
+int firstnumber = 12;
+int secondnumber = 7;
+Console.WriteLine(firstnumber + secondnumber);
+firstname = "Bob";
+int widgetSold = 7;
+Console.WriteLine(firstname +" sold " + widgetSold + " widgets ");
+Console.WriteLine(firstname + " sold " + widgetSold + 7 + " widgets ");
+Console.WriteLine(firstname + " sold " + (widgetSold + 7) + " widgets. ");
+int sum = 7 + 5;
+int difference = 7 - 5;
+int product = 7 * 5;
+int quotient = 7 / 5;
+Console.WriteLine("Sum: " + sum);
+Console.WriteLine("Difference: " + difference);
+Console.WriteLine("Product: " + product);
+Console.WriteLine("Quotient: " + quotient);
+double dQuotient = 7.0 / 5;
+Console.WriteLine($"dQuotient: " + dQuotient);
+int first = 7;
+int second = 5;
+double quotient2 = first / second;
+Console.WriteLine($"Modulus of 200 / 5 : {200 % 5}");
+Console.WriteLine($"Modulus of 7 / 5 : {7 % 5}");
+int value1 = 3 + 4 * 5;
+int value2 = (3 + 4) * 5;
+Console.WriteLine(value1);
+Console.WriteLine(value2);
+
+int value3 = 1;
+value3 = value3 + 1;
+Console.WriteLine("First increment: " + value3);
+value3 += 1;
+Console.WriteLine("Second increment: " + value3);
+value3++;
+Console.WriteLine("Third increment: " + value3);
+value3 = value3 - 1;
+Console.WriteLine("First derement: " + value3);
+value3 -= 1;
+Console.WriteLine("Second derement: " + value3);
+value3--;
+Console.WriteLine("Third derement :" + value3);
+value1 = 1;
+value1++;
+Console.WriteLine("First : " + value1);
+Console.WriteLine($"Second: {value1++}");
+Console.WriteLine("Third: " + value1);
+Console.WriteLine("Fourth: " + (++value1));
+
+int fahrenheit = 94;
+double fn = 5.0 / 9;
+double celsius = (fahrenheit - 32) * fn;
+Console.WriteLine($"The temperature is {celsius}" + " Celsius.");
